@@ -1,0 +1,47 @@
+img{
+    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+ 
+}
+p{
+    font-size: 22px;
+}
+
+h1{
+    text-align: center;
+    font-size: 85px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav a{
+    color:#8E2657;
+    text-decoration: none;
+    display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  margin:20px;
+  background:#F5FDB0;
+  float:right 40cm;
+}
+header{
+    background-color: #B97A95;
+    border:dashed;
+    border-color: #F5FDB0;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+body{
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470");
+}
+
+div{
+    color:#8E2657;
+    background-color: #FCD8D4;
+    font-size: 25px;
+}
+footer{
+    background-color: #973f65;
+    color:#FCD8D4;
+}
