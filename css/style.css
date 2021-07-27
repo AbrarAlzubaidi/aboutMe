@@ -1,20 +1,31 @@
-img{
+img{ /* to style imgs */
     
   display: block;
   margin-left: auto;
   margin-right: auto;  
- 
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+
 }
-p{
+p{ /* to style paragraphs */
     font-size: 22px;
 }
 
-h1{
+h1{ /* to style h1 heading */
     text-align: center;
     font-size: 85px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-nav a{
+h3{ /* to style h3 heading */
+  padding-left: 1cm;
+  padding-top: 0.5cm;
+
+}
+
+ul{ /* to style ul */
+  padding-left: 3cm;
+}
+nav a{ /* to style each a in nav */
     color:#8E2657;
     text-decoration: none;
     display: inline-block;
@@ -24,24 +35,50 @@ nav a{
   background:#F5FDB0;
   float:right 40cm;
 }
-header{
+
+header{  /* to style header */
     background-color: #B97A95;
     border:dashed;
     border-color: #F5FDB0;
     position: -webkit-sticky;
   position: sticky;
   top: 0;
+  
 }
-body{
+body{  /* to style body */
     background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470");
+    margin-left: 4cm;
+    margin-right: 4cm;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+
+}
+#divstyle1{ /* for education and experience */
+  border-radius: 50px 20px;
+  margin-bottom: 1cm;
 }
 
-div{
+div{ /* for my fav */
     color:#8E2657;
     background-color: #FCD8D4;
     font-size: 25px;
+    border-style: dashed;
 }
-footer{
+footer{  /* to style footer */
     background-color: #973f65;
     color:#FCD8D4;
+    border-color: antiquewhite;
+    border-style: dashed;
+    border-radius: 50px 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
 }
+ol{
+  padding-left: 2cm;
+}
+
+footer p{
+  text-align: center;
+}
+
