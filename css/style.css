@@ -9,6 +9,8 @@ img{ /* to style imgs */
 }
 p{ /* to style paragraphs */
     font-size: 22px;
+    padding-top:cm;
+    text-decoration:darkblue;
 }
 
 h1{ /* to style h1 heading */
