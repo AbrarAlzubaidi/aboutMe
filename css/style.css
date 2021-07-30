@@ -10,9 +10,10 @@ img{ /* to style imgs */
 p{ /* to style paragraphs */
     font-size: 22px;
     padding-top:cm;
-    text-decoration:darkblue;
 }
-
+article{
+  margin: 2cm;
+}
 h1{ /* to style h1 heading */
     text-align: center;
     font-size: 85px;
@@ -20,10 +21,28 @@ h1{ /* to style h1 heading */
 }
 h3{ /* to style h3 heading */
   padding-left: 1cm;
-  padding-top: 0.5cm;
-
+  padding-top: 0.5cm; 
 }
 
+#topFav{
+    position: relative; 
+ bottom: 6cm; 
+}
+#thankyou{
+  background-color:#B97A95;
+  color:#8E2657;
+  width: 15cm;
+  height: 4cm;
+  border-style:dashed;
+  border-color:antiquewhite;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 2.5cm;
+  position: relative;
+  left: 14cm;
+  top: 11cm;
+  opacity:0.9;
+}
 ul{ /* to style ul */
   padding-left: 3cm;
 }
@@ -35,7 +54,6 @@ nav a{ /* to style each a in nav */
   padding: 10px;
   margin:20px;
   background:#F5FDB0;
-  float:right 40cm;
 }
 
 header{  /* to style header */
@@ -45,6 +63,7 @@ header{  /* to style header */
     position: -webkit-sticky;
   position: sticky;
   top: 0;
+  opacity: 0.8;
   
 }
 body{  /* to style body */
@@ -55,16 +74,17 @@ body{  /* to style body */
     margin-bottom: 2cm;
 
 }
-#divstyle1{ /* for education and experience */
-  border-radius: 50px 20px;
-  margin-bottom: 1cm;
-}
+  
+
 
 div{ /* for my fav */
     color:#8E2657;
     background-color: #FCD8D4;
     font-size: 25px;
     border-style: dashed;
+    border-radius: 50px 20px;
+  margin-bottom: 1cm;
+  
 }
 footer{  /* to style footer */
     background-color: #973f65;
@@ -74,13 +94,54 @@ footer{  /* to style footer */
     border-radius: 50px 20px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 20cm;
+    
        
 }
 ol{
   padding-left: 2cm;
+  list-style:decimal;
+  position: relative;
+  bottom: 6cm;
 }
 
 footer p{
   text-align: center;
+  
 }
 
+#turnRight{  /* for education and experience*/
+  float:right;
+  width: 9cm;
+  height: 16cm;
+  padding-right: 1cm;
+
+}
+
+#turnLeft{   /* for my favorites*/
+  float: left;
+  width: 9cm;
+  height: 10cm;
+}
+
+ #lorem{
+  background-color:#FCD8D4;
+  color:#8E2657;
+  width: 18cm;
+  height: 5cm;
+  border-style:dashed;
+  border-color:hotpink;
+   float: left; 
+  position: relative;
+  bottom: 8cm;
+  right:2cm;
+  padding-top: 1cm;
+  padding-right: 1cm;
+  padding-left: 1cm;
+  border-radius: 10cm 50cm;
+  opacity: 0.8;
+}  
+main{
+  margin-top: 2cm;
+  margin-bottom: 1cm;
+}
